@@ -1,0 +1,180 @@
+/*md*/
+@media screen and (min-width:768px) and (max-width:991.98px){
+    .header{
+        margin: auto;
+        text-align: center;
+        font-family: "yekan";
+        margin-top: 2vh;
+    }
+    .header h1{
+        font-size: 28px;
+    }
+    .header h4{
+        color: #ccae62;
+        font-size: 20px;
+    }
+    .wrp-title-header{
+        text-align: center;
+        font-family: "yekan";
+        margin-top: 2vh;
+    }
+    .wrp-title-header h1{
+        font-size: 23px;
+        color: #303030;
+
+    }
+    .wrp-col{
+        flex-direction: column-reverse;
+    }
+    .wrp-btns{
+        display: flex;
+        margin: auto;
+        margin-top: 6vh;
+        justify-content: center;
+        margin-left: 40px;
+
+    }
+    .reset-btn{
+        width: 50px;
+        height: 50px;
+        background-color: #ccae62;
+        cursor: pointer;
+        border-radius: 50px;
+        margin-left: 2vw;
+        margin-top: 2vh;
+        text-align: center;
+        padding: 2px 0;
+        
+
+    }
+    .reset-icon{
+        width: 45px;
+    height: 45px;
+    
+    }
+    .add-btn{
+        width: 85px;
+        height: 85px;
+background: #ffffff;
+box-shadow:  5px 5px 24px #f0f0f0,
+             -5px -5px 24px #ffffff;
+             border-radius: 50px;
+             text-align: center;
+             color: #ccae62;
+             font-size: 50px;
+             cursor: pointer;
+             margin-left: 2vw;
+             -webkit-user-select: none; /* Safari */
+             -ms-user-select: none; /* IE 10 and IE 11 */
+             user-select: none; /* Standard syntax */
+    }
+    .sub-btn{
+        width: 85px;
+        height: 85px;
+background: #ffffff;
+box-shadow:  5px 5px 24px #f0f0f0,
+             -5px -5px 24px #ffffff;
+             border-radius: 50px;
+             text-align: center;
+             color: #ccae62;
+             font-size: 50px;
+             cursor: pointer;
+             margin-left: 2vw;
+             -webkit-user-select: none; /* Safari */
+             -ms-user-select: none; /* IE 10 and IE 11 */
+             user-select: none; /* Standard syntax */
+    }
+    .wrp-counter{
+        width: 240px;
+        height: 240px;
+        background: #ffffff;
+box-shadow:  5px 5px 24px #f0f0f0,
+             -5px -5px 24px #ffffff;
+             color: #303030;
+             font-family: "yekan";
+             padding-top: 74px;
+             margin: auto;
+             margin-top: 5vh;
+    }
+    .wrp-counter h1{
+        font-size: 90px;
+        text-align: center;
+
+    }
+    .wrp-parent-title{
+        margin-top: 3vh;
+    }
+    .wrp-title-right{
+        width: 350px;
+        height: 60px;
+        background: #ffffff;
+box-shadow:  5px 5px 24px #f0f0f0,
+             -5px -5px 24px #ffffff;
+             float: left;
+             margin-top: 3vh;
+             cursor: pointer;
+
+    }
+    .wrp-title-left{
+        width: 350px;
+        height: 60px;
+        background: #ffffff;
+box-shadow:  5px 5px 24px #f0f0f0,
+             -5px -5px 24px #ffffff;
+             float: right;
+             margin-top: 3vh;
+             cursor: pointer;
+
+    }
+    .wrp-title-right p{
+        font-family: "yekan";
+        text-align: center;
+        font-size: 20px;
+        margin-top: 16px;
+    }
+    .wrp-title-left p{
+        font-family: "yekan";
+        text-align: center;
+        font-size: 20px;
+        margin-top: 16px;
+    }
+    .wrp-title-center{
+        width: 400px;
+        height: 70px;
+        background: #ffffff;
+box-shadow:  5px 5px 24px #f0f0f0,
+             -5px -5px 24px #ffffff;
+             margin: auto;
+             margin-top: 3vh;
+             padding-top: 16px;
+             cursor: pointer;
+    }
+    .wrp-title-center p{
+        font-family: "yekan";
+        text-align: center;
+        font-size: 22px;
+    }
+    @keyframes reset {
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    .reset-icon:hover{
+        animation: reset 1s 0ms ease-in-out;
+    }
+    @keyframes add-sub {
+        to{
+            
+background: #ffffff;
+box-shadow:  5px 5px 11px #cccccc,
+             -5px -5px 11px #ffffff;
+        }
+    }
+    .add-btn:active , .sub-btn:active{
+        animation: add-sub 0.1s 0ms ;
+    }
+    .wrp-title-right:hover , .wrp-title-left:hover ,.wrp-title-center:hover{
+        color: #fff;
+        background-color: #ccae62;
+    }
+}

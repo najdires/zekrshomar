@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="IR-fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ccae62">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="assets/css/XL.css">
+    <link rel="stylesheet" href="assets/css/LG.css">
+    <link rel="stylesheet" href="assets/css/TABLET-MD.css">
+    <link rel="stylesheet" href="assets/css/MOBILE.css">
+    <link rel="stylesheet" href="assets/css/MOBILE-SMALL.css">
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/Jquery.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="logo/512.png">
+    
+    <title>ذکر شمار آنلاین</title>
+</head>
+<body dir="rtl" style="margin-bottom: 40px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="header">
+                    <h1>ذکر شمار</h1>
+                    <h4>نسخه آزمایشی  آنلاین</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="wrp-title-header">
+                    <h1 id="zekr">اللهم صلی علی محمد و آل محمد و عجل فرجهم</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row wrp-col">
+            <div class="col-12 col-xl-6 col-lg-6 col-md-12">
+             <div class="wrp-btns">
+                <div class="reset-btn" onclick="reset()"><img src="assets/img/reload.png" alt="reset-btn" class="reset-icon"></div>
+                <div class="add-btn" onclick="add()"><p>+</p></div>
+                <div class="sub-btn" onclick="sub()"><p>-</p></div>
+             </div>
+            </div>
+
+            <div class="col-12 col-xl-6 col-lg-6 col-md-12">
+                <div class="wrp-counter">
+                    <h1 id="counter">0</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row wrp-parent-title">
+            
+            <div class="col-6">
+                <div class="wrp-title-right" onclick="day0()" id="day0">
+                    <p>ذکر روز شنبه</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="wrp-title-left" onclick="day1()" id="day1">
+                    <p>ذکر روز یکشنبه</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="wrp-title-right" onclick="day2()" id="day2">
+                    <p>ذکر روز دوشنبه</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="wrp-title-left" onclick="day3()" id="day3">
+                    <p>ذکر روز سه شنبه</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="wrp-title-right" onclick="day4()" id="day4">
+                    <p>ذکر روز چهارشنبه</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="wrp-title-left" onclick="day5()" id="day5">
+                    <p>ذکر روز پنجشنبه</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="wrp-title-center" onclick="day6()" id="day6">
+                    <p>ذکر روز جمعه</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
